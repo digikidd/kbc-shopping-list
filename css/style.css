@@ -1,0 +1,41 @@
+/* * {
+    outline: red 1px solid;
+} */
+
+.jumbotron {
+	background-color: #aed581;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right:  5px;
+	max-height: 200px;	
+}
+
+.flow-text {
+	font-size: 1.68rem;
+}
+.responsive-img {
+	display: flex;
+	margin-left: auto;
+	margin-right:  auto;
+}
+.divider {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+.row {
+	margin-top: 25px;
+}
+
+#add-btn {
+	padding-left: 100px;
+	display: flex;
+}
+
+#txt-input {
+	font-size: 1.68rem;
+	max-width: 75%;
+	display: block;
+	margin-left: auto;
+}
