@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
 // Function to get input value.
 // $('#add-btn').click(function() {
 // var textarea_value = $("#list-item").val();
@@ -10,6 +12,7 @@ $(document).ready(function(){
 // 	$('#list-item').val("");
 // }
 // });
+
 
 	
 });
