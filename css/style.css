@@ -1,50 +1,81 @@
 /* * {
-    outline: red 1px solid;
-} */
+     outline: red 1px solid;
+ } */
+ body {
+      animation: colorchange 60s infinite; 
+      -webkit-animation: colorchange 60s infinite; /* Chrome and Safari */
+    }
 
-
+    @keyframes colorchange
+    {
+      0%   {background: lightgoldenrodyellow;}
+      25%  {background: skyblue;}
+      50%  {background: lightseagreen;}
+      75%  {background: mistyrose;}
+      100% {background: lightpink;}
+    }
+    @-webkit-keyframes colorchange 
+    {
+      0%   {background: lightgoldenrodyellow;}
+      25%  {background: skyblue;}
+      50%  {background: lightseagreen;}
+      75%  {background: mistyrose;}
+      100% {background: lightpink;}
+    }
 
 .jumbotron {
-	background-color: #aed581;
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right:  5px;
-	max-height: 200px;	
+    background-color: #75bce8;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
 }
 
-.flow-text {
-	font-size: 1.68rem;
-}
-.responsive-img {
-	display: flex;
-	margin-left: auto;
-	margin-right:  auto;
-}
-.divider {
-	max-width: 60%;
-	margin-left: auto;
-	margin-right:  auto;
+#app-logo {
+    width: 300px;
+    height: 165px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 4px 4px #182742;
 }
 
 .row {
-	margin-top: 25px;
+    margin-top: 25px;
+}
+
+.col-md-1 {
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 #add-btn {
-	padding-left: 100px;
-	display: flex;
-}
-
-#txt-input {
-	font-size: 1.68rem;
-	max-width: 75%;
-	display: block;
-	margin-left: auto;
+    padding-left: 100px;
+    display: flex;
+    font-family: "Oswald", sans-serif;
 }
 
 #clear-btn {
-	display: flex;
-	margin-left: auto;
-	margin-right:  auto;
-
+    padding-left: 115px;
+    display: flex;
+    font-family: "Oswald", sans-serif;
 }
+
+#txt-input {
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Oswald", sans-serif;
+}
+
+#item-01 {
+    width: 125px;
+}
+
+#output {
+    font-size: 28px;
+    font-family: "Oswald", sans-serif;
+}
+
