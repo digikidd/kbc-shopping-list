@@ -18,6 +18,7 @@
         <div class="container-fluid">
             <div class="jumbotron z-depth-2">
                 <img id="app-logo" src="images/cart-dude.jpg" alt="" class="responsive-img">
+                <p><h2>my shopping list</h2></p>
             </div>
             <div class="row">
                 <div class="col-md-2"></div>
@@ -33,16 +34,20 @@
             </div>
     </section>
     <section id="output">
+        <div id="empty" class="row">
+            <img src="images/caution-icon.png">
+            <h1>No Items In The List</h1>
+        </div>
         <!--  This is where the item list is dynamically created. -->
         <div id="list-row" class="row">
             <ul id="shop-ul" class="shop-list">
-                <li>
-                    <div id="list-id" class="col-md-1 card blue darken-1 z-depth-2">
+                <!-- <li>
+                    <div id="list-id" class="col-md-1 card blue darken-4 z-depth-2">
                         <div class="card-content white-text">
                             <span class="card-title">Bacon</span>
                         </div>
                     </div>
-                </li>
+                </li> -->
             </ul>
         </div>
         <div class="row">

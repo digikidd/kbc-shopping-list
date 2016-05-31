@@ -3,7 +3,7 @@
  } */
  body {
       animation: colorchange 60s infinite; 
-      -webkit-animation: colorchange 60s infinite; /* Chrome and Safari */
+      -webkit-animation: colorchange 60s infinite;
     }
 
     @keyframes colorchange
@@ -24,12 +24,19 @@
     }
 
 .jumbotron {
-    background-color: #75bce8;
+    /* background-color: #75bce8; */
+    background-image: url('../images/shopping-text.jpg');
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: black 0.3em 0.3em 0.3em;
 }
 
 #app-logo {
@@ -39,7 +46,8 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 4px 4px 4px #182742;
+    box-shadow: 6px 6px 6px #182742;
+
 }
 
 .row {
@@ -61,6 +69,14 @@
     padding-left: 115px;
     display: flex;
     font-family: "Oswald", sans-serif;
+
+}
+#list-id {
+    /* color: : #354662; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #txt-input {
@@ -70,12 +86,16 @@
     font-family: "Oswald", sans-serif;
 }
 
-#item-01 {
-    width: 125px;
-}
-
 #output {
     font-size: 28px;
     font-family: "Oswald", sans-serif;
+}
+
+#list-id {
+  word-wrap: break-word;
+}
+
+#empty {
+  text-align: center;
 }
 
