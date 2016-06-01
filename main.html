@@ -18,7 +18,8 @@
         <div class="container-fluid">
             <div class="jumbotron z-depth-2">
                 <img id="app-logo" src="images/cart-dude.jpg" alt="" class="responsive-img">
-                <p><h2>my shopping list</h2></p>
+                <p>
+                    <h2>my shopping list</h2></p>
             </div>
             <div class="row">
                 <div class="col-md-2"></div>
@@ -27,16 +28,18 @@
                     <input type="text" id="txt-input" class="form-control flow-text" placeholder="item needed" maxlength="35" value=''>
                 </div>
                 <div class="col-md-1"></div>
-                <div id="add-btn" class="col-md-4">
-                    <button type="button" class="btn btn-success btn-sm">add to my list</button>
+                <div id="add-btn" class="col-md-2">
+                    <button type="button" class="btn btn-primary btn-sm">add to my list</button>
                 </div>
-                <div class="col-md-2"></div>
+                <div id="clear-btn" class="col-md-2">
+                    <button type="button" class="btn btn-danger btn-sm">clear the list</button>
+                </div>
             </div>
     </section>
     <section id="output">
         <div id="empty" class="row">
-            <img src="images/caution-icon.png">
-            <h1>No Items In The List</h1>
+            <img src="images/blue-paper-pencil.png">
+            <h3>No Items In The List</h1>
         </div>
         <!--  This is where the item list is dynamically created. -->
         <div id="list-row" class="row">
@@ -50,15 +53,7 @@
                 </li> -->
             </ul>
         </div>
-        <div class="row">
-            <div class="col-md-6"></div>
-            <div id="clear-btn" class="col-md-6">
-                <button type="button" class="btn btn-danger btn-sm">clear the list</button>
-            </div>
-        </div>
     </section>
-    <!-- Latest compiled and minified JavaScript -->
-    <!--     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="js/main.js"></script>

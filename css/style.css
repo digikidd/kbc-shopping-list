@@ -1,101 +1,120 @@
-/* * {
-     outline: red 1px solid;
- } */
  body {
-      animation: colorchange 60s infinite; 
-      -webkit-animation: colorchange 60s infinite;
-    }
+     animation: colorchange 60s infinite;
+     -webkit-animation: colorchange 60s infinite;
+ }
+ 
+ @keyframes colorchange {
+     0% {
+         background: lightgoldenrodyellow;
+     }
+     25% {
+         background: skyblue;
+     }
+     50% {
+         background: lightseagreen;
+     }
+     75% {
+         background: mistyrose;
+     }
+     100% {
+         background: lightpink;
+     }
+ }
+ 
+ @-webkit-keyframes colorchange {
+     0% {
+         background: lightgoldenrodyellow;
+     }
+     25% {
+         background: skyblue;
+     }
+     50% {
+         background: lightseagreen;
+     }
+     75% {
+         background: mistyrose;
+     }
+     100% {
+         background: lightpink;
+     }
+ }
+ 
+ .jumbotron {
+     /* background-color: #75bce8; */
+     background-image: url('../images/shopping-text.jpg');
+     display: block;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top: 5px;
+     margin-left: 5px;
+     margin-right: 5px;
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     text-align: center;
+     color: whitesmoke;
+     text-shadow: black 0.3em 0.3em 0.3em;
+ }
+ 
+ #app-logo {
+     width: 300px;
+     height: 165px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     box-shadow: 6px 6px 6px #182742;
+ }
+ 
+ .row {
+     margin-top: 25px;
+ }
+ 
+ .col-md-1 {
+     margin-left: 4px;
+     margin-right: 4px;
+ }
+ 
+ #add-btn {
+     padding-left: 100px;
+     display: flex;
+     font-family: "Oswald", sans-serif;
+ }
+ 
+ #clear-btn {
+     padding-left: 10px;
+     display: flex;
+     font-family: "Oswald", sans-serif;
+ }
+ 
+ #shop-ul {
+    padding-left: 18px;
+ }
 
-    @keyframes colorchange
-    {
-      0%   {background: lightgoldenrodyellow;}
-      25%  {background: skyblue;}
-      50%  {background: lightseagreen;}
-      75%  {background: mistyrose;}
-      100% {background: lightpink;}
-    }
-    @-webkit-keyframes colorchange 
-    {
-      0%   {background: lightgoldenrodyellow;}
-      25%  {background: skyblue;}
-      50%  {background: lightseagreen;}
-      75%  {background: mistyrose;}
-      100% {background: lightpink;}
-    }
-
-.jumbotron {
-    /* background-color: #75bce8; */
-    background-image: url('../images/shopping-text.jpg');
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: whitesmoke;
-    text-shadow: black 0.3em 0.3em 0.3em;
-}
-
-#app-logo {
-    width: 300px;
-    height: 165px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 6px 6px 6px #182742;
-
-}
-
-.row {
-    margin-top: 25px;
-}
-
-.col-md-1 {
-    margin-left: 4px;
-    margin-right: 4px;
-}
-
-#add-btn {
-    padding-left: 100px;
-    display: flex;
-    font-family: "Oswald", sans-serif;
-}
-
-#clear-btn {
-    padding-left: 115px;
-    display: flex;
-    font-family: "Oswald", sans-serif;
-
-}
-#list-id {
-    /* color: : #354662; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-#txt-input {
-    font-size: 16px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: "Oswald", sans-serif;
-}
-
-#output {
-    font-size: 28px;
-    font-family: "Oswald", sans-serif;
-}
-
-#list-id {
-  word-wrap: break-word;
-}
-
-#empty {
-  text-align: center;
-}
-
+ #list-id {
+     /* color: : #354662; */
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+ 
+ #txt-input {
+     font-size: 16px;
+     margin-right: auto;
+     margin-left: auto;
+     font-family: "Oswald", sans-serif;
+ }
+ 
+ #output {
+     font-size: 28px;
+     font-family: "Oswald", sans-serif;
+ }
+ 
+ #list-id {
+     word-wrap: break-word;
+ }
+ 
+ #empty {
+     text-align: center;
+     text-transform: uppercase;
+ }
