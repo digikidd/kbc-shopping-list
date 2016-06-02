@@ -40,7 +40,6 @@
  }
  
  .jumbotron {
-     /* background-color: #75bce8; */
      background-image: url('../images/shopping-text.jpg');
      display: block;
      background-size: cover;
@@ -86,12 +85,13 @@
      font-family: "Oswald", sans-serif;
  }
  
- #shop-ul {
-    padding-left: 18px;
+ #sortable {
+     padding-left: 18px;
+     text-transform: uppercase;
+     /* width: 450px; */
  }
-
+ 
  #list-id {
-     /* color: : #354662; */
      border-top-left-radius: 10px;
      border-top-right-radius: 10px;
      border-bottom-left-radius: 10px;
@@ -99,22 +99,43 @@
  }
  
  #txt-input {
-     font-size: 16px;
+     font-size: 14px;
      margin-right: auto;
      margin-left: auto;
      font-family: "Oswald", sans-serif;
  }
  
  #output {
-     font-size: 28px;
      font-family: "Oswald", sans-serif;
- }
- 
- #list-id {
-     word-wrap: break-word;
  }
  
  #empty {
      text-align: center;
      text-transform: uppercase;
  }
+ 
+ #empty > h4 {
+     padding-right: 25px;
+ }
+ 
+ .card-title {
+     font-size: 12px !important;
+     text-align: center;
+ }
+
+ /* #sortable {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 450px;
+    }
+    
+    #sortable li {
+        margin: 3px 3px 3px 0;
+        padding: 1px;
+        float: left;
+        width: 100px;
+        height: 90px;
+        font-size: 4em;
+        text-align: center;
+    } */

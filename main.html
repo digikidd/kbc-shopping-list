@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Shopping List</title>
 </head>
@@ -37,25 +38,21 @@
             </div>
     </section>
     <section id="output">
-        <div id="empty" class="row">
-            <img src="images/blue-paper-pencil.png">
-            <h3>No Items In The List</h1>
-        </div>
         <!--  This is where the item list is dynamically created. -->
         <div id="list-row" class="row">
-            <ul id="shop-ul" class="shop-list">
-                <!-- <li>
-                    <div id="list-id" class="col-md-1 card blue darken-4 z-depth-2">
-                        <div class="card-content white-text">
-                            <span class="card-title">Bacon</span>
-                        </div>
-                    </div>
-                </li> -->
+            <ul id="sortable" class="shop-list">
             </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div id="empty" class="col-md-11">
+            <img src="images/blue-paper-pencil.png">
+            <h4>No Items In The List</h4>
         </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery.min.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="js/main.js"></script>
 </body>
 
